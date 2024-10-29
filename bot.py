@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import InviteHashExpired, InviteHashInvalid
 
 # Загружаем переменные окружения из файла .env
-load_dotenv(dotenv_path=r'C:\Users\Владимир\pythonProject\pythonProject15\botr.env')
+load_dotenv(dotenv_path=".env")
 
 # Получаем данные из переменных окружения
 api_id = int(os.getenv("API_ID"))
